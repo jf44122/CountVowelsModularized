@@ -14,7 +14,9 @@ namespace PrimeNumberFinder
             Write("Please enter a number to see if that number is prime: ");
             int input = Convert.ToInt32(ReadLine());
             if (isPrime(input))
-                Write(input+" is prime.");
+                Write(input + " is prime.");
+            else
+                Write(input + " is not prime.");
         }
         public static bool isPrime(int num)
         {
